@@ -10,15 +10,10 @@ A modern, offline-first note-taking Android app built with Kotlin and Jetpack Co
 - **Offline-First**: Local caching with Room for seamless use without network  
 - **Profile Management**: View user info and logout
 
-## 🛠 Tech Stack
+## Contributors
+**[Asal Meskin](https://github.com/asalmskin)** • **[Alireza Mirrokni](https://github.com/alirezamirrokni)** 
 
-- **Android**:  
-  - Kotlin & Jetpack Compose  
-  - Hilt for dependency injection  
-  - Retrofit & OkHttp (with interceptor + authenticator)  
-  - Room (SQLite) & DataStore (token storage)  
-  - Coroutines & Flow  
-- **Backend**:  
-  - Django REST Framework  
-  - PostgreSQL  
-  - Docker & Docker Compose  
+Computer Engineering Department, **Sharif University of Technology**  
+*Equal contribution.*
+
+

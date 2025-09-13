@@ -12,10 +12,13 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.simplenote.ui.screens.*
 import com.example.simplenote.ui.theme.AppTheme
+import com.jakewharton.threetenabp.AndroidThreeTen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
+        AndroidThreeTen.init(this)
         setContent { App() }
     }
 }

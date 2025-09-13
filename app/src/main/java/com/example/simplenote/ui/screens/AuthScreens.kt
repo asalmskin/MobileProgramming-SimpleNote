@@ -161,8 +161,9 @@ fun RegisterScreen(nav: NavController) {
                         Toast.makeText(ctx, "Registered", Toast.LENGTH_SHORT).show()
                         nav.popBackStack()
                     } catch (e: Exception) {
-                        Toast.makeText(ctx, "Register failed", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(ctx, "Register failed: ${e.message}", Toast.LENGTH_LONG).show()
                     }
+
                 }
             }
         )

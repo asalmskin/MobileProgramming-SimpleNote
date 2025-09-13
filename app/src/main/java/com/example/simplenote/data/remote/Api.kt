@@ -51,7 +51,8 @@ interface SimpleApi {
     suspend fun refresh(@Body req: TokenRefreshRequest): TokenResponse
 
     @POST("api/auth/register/")
-    suspend fun register(@Body req: RegisterRequest): Any
+    suspend fun register(@Body req: RegisterRequest): retrofit2.Response<Unit>
+
 
     @GET("api/notes/")
     suspend fun notes(@Query("page") page: Int?, @Query("page_size") pageSize: Int? = 10): Page<NoteDto>

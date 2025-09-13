@@ -6,8 +6,11 @@ import com.example.simplenote.data.local.AppDb
 import com.example.simplenote.data.local.NoteEntity
 import com.example.simplenote.data.remote.*
 import kotlinx.coroutines.flow.Flow
-import java.time.Instant
+import org.threeten.bp.Instant
 import java.util.UUID
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
 
 class Repository(
     private val context: Context,
@@ -22,17 +25,48 @@ class Repository(
         tokens.save(t.access, t.refresh ?: "")
     }
 
-    suspend fun register(first: String, last: String, username: String, email: String, password: String) {
-        api.register(RegisterRequest(username = username, password = password, email = email, first_name = first, last_name = last))
+
+    suspend fun register(
+        first: String,
+        last: String,
+        username: String,
+        email: String,
+        password: String
+    ) {
+        // Send register request
+        val resp = api.register(
+            RegisterRequest(
+                username = username,
+                password = password,
+                email = email,
+                first_name = first,
+                last_name = last
+            )
+        )
+
+        if (!resp.isSuccessful) {
+            val errorMsg = resp.errorBody()?.string() ?: "Unknown error"
+            throw Exception("Register failed: HTTP ${resp.code()} - $errorMsg")
+        }
+
+        // Clear old tokens & local notes (IO thread)
+        withContext(Dispatchers.IO) {
+            tokens.clear()
+            db.clearAllTables()
+        }
+
+        // Log in with the new account (still network = OK on main-safe coroutines)
+        val t = api.login(TokenObtainPairRequest(username, password))
+        tokens.save(t.access, t.refresh ?: "")
     }
 
-    suspend fun logout() { tokens.clear() }
 
-    suspend fun refresh() {
-        val r = tokens.refresh() ?: return
-        val t = api.refresh(TokenRefreshRequest(r))
-        tokens.save(t.access, r)
+    suspend fun logout() {
+        tokens.clear()
+        db.clearAllTables()
     }
+
+
 
     suspend fun userInfo(): UserInfo = api.userinfo()
 

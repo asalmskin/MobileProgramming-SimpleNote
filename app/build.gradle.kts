@@ -53,6 +53,7 @@ android {
 }
 
 dependencies {
+    implementation("com.jakewharton.threetenabp:threetenabp:1.4.7")
     implementation("com.squareup.moshi:moshi-kotlin:1.15.1")
     implementation("androidx.room:room-paging:2.6.1")
     implementation("com.google.android.material:material:1.12.0")

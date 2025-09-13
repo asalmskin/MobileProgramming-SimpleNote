@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.simplenote.app-debug-77:/drawable_idea_illustration.png.flat",
+        "source": "com.example.simplenote.app-main-79:/drawable/idea_illustration.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-debug-77:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.11.1\\com.example.simplenote.app-main-79:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

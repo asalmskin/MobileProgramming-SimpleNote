@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightBg">#F5F4FB</color>
+    <color name="primaryPurple">#6B5AE0</color>
+    <string name="app_name">SimpleNote</string>
+    <style name="Theme.SimpleNote" parent="Theme.Material3.DayNight.NoActionBar"/>
+</resources>
